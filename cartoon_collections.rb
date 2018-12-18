@@ -7,10 +7,10 @@ end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
-  planeteer_calls.each do |call|
+  planeteer_calls.map do |call|
     call = call.capitalize + '!'
   end
-  return planeteer_calls
+  # return planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
